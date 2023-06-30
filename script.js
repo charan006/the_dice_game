@@ -33,9 +33,9 @@ if (p1_score === p2_score){
     document.querySelector("h1").innerText="It's a draw!";
 }
 else if(p1_score > p2_score){
-    document.querySelector("h1").innerText="Player 1 wins!";
+    document.querySelector("h1").innerText="Player 1 won!";
 }
 else{
-    document.querySelector("h1").innerText="Player 2 wins!";
+    document.querySelector("h1").innerText="Player 2 won!";
 }
 console.log("execution completed")
